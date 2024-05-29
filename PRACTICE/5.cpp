@@ -3,6 +3,12 @@ using namespace std;
 
 //? FIND THE FIRST AND LAST POSITION OF WANTED ELEMENT IN SORTED ARRAY
 
+// The time complexity of both the Find_First_Position and Find_Last_Position functions is O(log n) because they 
+// use binary search to find the first and last occurrence of the target element in the sorted array.
+//  Binary search has a logarithmic time complexity as it divides the search space in half at each step.
+
+// The space complexity of both functions is O(1) because 
+// they only use a constant amount of extra space regardless of the size of the input array.
 class process{
 
     public:
