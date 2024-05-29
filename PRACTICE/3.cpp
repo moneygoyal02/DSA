@@ -4,6 +4,14 @@ using namespace std;
 
 //? ROTATE ELEMENTS WITHIN CLASS
 
+// The time complexity of the Rotate function in the given code is O(n) where n is the number
+//  of elements in the input array. 
+// This is because the function performs three reverse operations, each of which takes O(n/2) time complexity. 
+// Therefore, the overall time complexity is O(n).
+
+// The space complexity of the code is O(1) because the operations are performed
+//  in-place without using any additional space that scales with the input size.
+
 class process {
 
     public:
